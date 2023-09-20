@@ -29,7 +29,7 @@ public class Main{
 		}
 		for(double [] mass: mas){
 			for(double value: mass){
-				System.out.print(String.format("%10s", (String.format("%.5f", value))));
+				System.out.print(String.format("%10.5f", value));
 			}
 		System.out.println();
 		}
